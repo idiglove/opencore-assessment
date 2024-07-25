@@ -20,6 +20,8 @@ const config = {
     extend: {
       colors: {
         border: "#EAECF0",
+        dark: "#1D2939",
+        light: "#475467",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
@@ -92,6 +94,7 @@ const config = {
       backgroundImage: {
         "grid-top": "url('/assets/resources/GridTop.png')",
         "grid-btm": "url('/assets/resources/GridBtm.png')",
+        "oc-footer": "url('/assets/resources/OpenCoreFooter.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
