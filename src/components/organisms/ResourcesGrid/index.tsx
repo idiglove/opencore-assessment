@@ -4,7 +4,7 @@ import PdfIcon from "@/assets/PdfIcon";
 import { Badge } from "@/components/atoms/Badge";
 import ImageCard from "@/components/molecules/ImageCard";
 
-const ResourcesGrid = () => {
+const ResourcesGrid = ({ className }: Props) => {
   // this should come from a db or cms
   const imageCards = [
     {
@@ -88,12 +88,16 @@ const ResourcesGrid = () => {
     },
   ];
   return (
-    <div className="flex md:flex-wrap flex-col md:flex-row mx-[-20px]">
+    <div className="flex md:flex-wrap flex-col md:flex-row mx-[-10px]">
       {imageCards.map((imageCard, index) => (
         <ImageCard key={index} {...imageCard} />
       ))}
     </div>
   );
+};
+
+type Props = {
+  className?: string;
 };
 
 export default ResourcesGrid;

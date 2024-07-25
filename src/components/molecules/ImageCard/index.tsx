@@ -1,4 +1,4 @@
-import TypographyP1 from "@/components/atoms/TypographyP1";
+import TypographyP1 from "@/components/atoms/TypographyP";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { ReactNode } from "react";

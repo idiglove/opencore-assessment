@@ -24,6 +24,8 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        bannerFrom: "#2F5478",
+        bannerTo: "#22405C",
         textColor: "#344054",
         primary: {
           DEFAULT: "#294f74",
@@ -41,7 +43,7 @@ const config = {
           DEFAULT: "var(--muted)",
           foreground: "var(--muted-foreground)",
         },
-        badge: '#F9FAFB',
+        badge: "#F9FAFB",
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
@@ -57,6 +59,8 @@ const config = {
       },
       padding: {
         sm: "10px",
+        31: "124px",
+        22: "88px",
       },
       borderRadius: {
         lg: "18px",
@@ -84,6 +88,10 @@ const config = {
       },
       margin: {
         23: "5.75rem",
+      },
+      backgroundImage: {
+        "grid-top": "url('/assets/resources/GridTop.png')",
+        "grid-btm": "url('/assets/resources/GridBtm.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
