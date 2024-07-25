@@ -1,10 +1,9 @@
 import HeroContent from "@/components/molecules/HeroContent";
+import { cn } from "@/lib/utils";
 
 const Hero = ({ className }: Props) => {
   return (
-    <div className={className}>
-      {/* add grid absolute top */}
-      {/* add topnavbar */}
+    <div className={cn("mt-[91px]", className)}>
       <HeroContent />
     </div>
   );

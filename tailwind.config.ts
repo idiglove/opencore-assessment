@@ -22,6 +22,7 @@ const config = {
         border: "#EAECF0",
         border2: "#D0D5DD",
         dark: "#1D2939",
+        dark2: "#10202E",
         light: "#475467",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -30,6 +31,7 @@ const config = {
         bannerFrom: "#2F5478",
         bannerTo: "#22405C",
         textColor: "#344054",
+        textColor2: "#547290",
         primary: {
           DEFAULT: "#294f74",
           foreground: "#EDF2F5",
@@ -95,6 +97,7 @@ const config = {
       backgroundImage: {
         "grid-top": "url('/assets/resources/GridTop.png')",
         "grid-btm": "url('/assets/resources/GridBtm.png')",
+        "grid-btm-mob": "url('/assets/resources/GridTopMob.png')",
         "oc-footer": "url('/assets/resources/OpenCoreFooter.png')",
         "oc-footer-mob": "url('/assets/resources/OpenCoreFooterMobile.png')",
       },

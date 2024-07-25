@@ -2,7 +2,18 @@
 
 import { FilterEnums, FilterKeys } from "@/components/organisms/ResourcesGrid";
 import FilterButton from "../FilterButton";
-import { ButtonProps } from "@/components/atoms/Button";
+import { Button, ButtonProps } from "@/components/atoms/Button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+} from "@/components/atoms/Dropdown";
+import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
+import FilterIcon from "@/assets/FilterIcon";
+import ResourcesDropdown from "../ResourcesDropdown";
 
 const FilterButtons = ({ onChangeFilter, filter }: Props) => {
   const buttons = [
@@ -43,14 +54,40 @@ const FilterButtons = ({ onChangeFilter, filter }: Props) => {
     },
   ];
   return (
-    <div className="flex gap-4 flex-wrap">
-      {buttons.map(({ text, ButtonProps }) => (
-        <FilterButton
-          key={text}
-          text={text}
-          ButtonProps={ButtonProps as ButtonProps}
-        />
-      ))}
+    <div className="flex justify-between">
+      <div className="hidden md:flex gap-4 flex-wrap">
+        {buttons.map(({ text, ButtonProps }) => (
+          <FilterButton
+            key={text}
+            text={text}
+            ButtonProps={ButtonProps as ButtonProps}
+          />
+        ))}
+      </div>
+
+      <div className="block md:hidden">
+        <ResourcesDropdown />
+      </div>
+
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button
+            variant="outline"
+            className="border-border focus-visible:ring-transparent p-[18px] py-[10px] text-secondary"
+          >
+            <FilterIcon className="mr-[10px]" />
+            Filters
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent className="w-56">
+          <DropdownMenuLabel>Filters</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuGroup>
+            <DropdownMenuItem>Filter 1</DropdownMenuItem>
+            <DropdownMenuItem>Filter 2</DropdownMenuItem>
+          </DropdownMenuGroup>
+        </DropdownMenuContent>
+      </DropdownMenu>
     </div>
   );
 };
