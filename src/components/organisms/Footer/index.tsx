@@ -1,5 +1,6 @@
 import TypographyP from "@/components/atoms/TypographyP";
 import FooterContact from "@/components/molecules/FooterContact";
+import FooterLinks from "@/components/molecules/FooterLinks";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
       >
         <div className="flex justify-between mb-16">
           <FooterContact />
-          <div>Home</div>
+          <FooterLinks />
         </div>
         <div className="flex justify-between ">
           <TypographyP

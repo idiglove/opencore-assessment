@@ -11,7 +11,7 @@ const FooterContact = () => {
     <div>
       <div className="mb-6">
         <TypographyP
-          className={`text-dark font-bold leading-[30px] tracking-[-0.01em]
+          className={`text-dark font-semibold leading-[30px] tracking-[-0.01em]
             text-xl`}
         >
           Say Hello!

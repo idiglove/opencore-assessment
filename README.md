@@ -11,9 +11,16 @@ Atoms are the smallest components. Next are molecules and then organisms.
 We use a Fluid style layout using Flexbox. This way spacings are consistent
 throughout the screen changes.
 
-How to Install and Run
-shadcdn
-
 # Suggestions
 
 - Use X logo instead of Twitter
+
+# Steps Taken
+
+There is a framework on how I work when making pages.
+I start taking a screenshot and identifying what are the big and medium components.
+This helps me identify which are reusable or not.
+
+
+How to Install and Run
+shadcdn
