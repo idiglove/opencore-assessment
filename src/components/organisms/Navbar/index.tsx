@@ -10,7 +10,7 @@ const Navbar = () => {
     >
       <Button
         className={`border rounded-tl-full rounded-bl-full border-border-2 rounded-tr-none rounded-br-none
-            w-[50%] px-[22px] py-[25px] h-full absolute top-0 left-0 hover:bg-opacity-100 `}
+            w-[50%] px-[22px] py-[25px] h-full absolute top-0 left-0 hover:bg-opacity-100 bg-white `}
       >
         <Image
           src="/assets/resources/OcSmallLogo.png"
@@ -21,7 +21,7 @@ const Navbar = () => {
       </Button>
       <Button
         className={`border rounded-tr-full rounded-br-full border-border-2 rounded-tl-none rounded-bl-none
-            w-[50%] px-[22px] py-[25px] h-full absolute top-0 right-0 hover:bg-opacity-100`}
+            w-[50%] px-[22px] py-[25px] h-full absolute top-0 right-0 hover:bg-opacity-100 bg-white`}
       >
         <MenuIcon />
       </Button>

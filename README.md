@@ -14,6 +14,7 @@ throughout the screen changes.
 # Suggestions
 
 - Use X logo instead of Twitter
+- More figma designs for other screen sizes
 
 # Steps Taken
 

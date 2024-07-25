@@ -32,7 +32,9 @@ const FooterLinks = () => {
         {leftLinks.map((link, index) => {
           return (
             <a key={index} href={link.href}>
-              <TypographyP variant="p2">{link.label}</TypographyP>
+              <TypographyP variant="p2" className="text-base md:text-xl">
+                {link.label}
+              </TypographyP>
             </a>
           );
         })}
@@ -41,7 +43,9 @@ const FooterLinks = () => {
         {rightLinks.map((link, index) => {
           return (
             <a key={index} href={link.href}>
-              <TypographyP variant="p2">{link.label}</TypographyP>
+              <TypographyP variant="p2" className="text-base md:text-xl">
+                {link.label}
+              </TypographyP>
             </a>
           );
         })}

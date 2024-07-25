@@ -96,6 +96,7 @@ const config = {
         "grid-top": "url('/assets/resources/GridTop.png')",
         "grid-btm": "url('/assets/resources/GridBtm.png')",
         "oc-footer": "url('/assets/resources/OpenCoreFooter.png')",
+        "oc-footer-mob": "url('/assets/resources/OpenCoreFooterMobile.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
