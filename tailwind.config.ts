@@ -45,7 +45,7 @@ const config = {
           DEFAULT: "var(--muted)",
           foreground: "var(--muted-foreground)",
         },
-        badge: "#F9FAFB",
+        badge: { DEFAULT: "#F9FAFB", secondary: "#F2F4F7" },
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",

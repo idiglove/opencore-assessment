@@ -9,7 +9,7 @@ const Footer = () => {
         before:content-[''] before:bg-oc-footer before:absolute before:w-full before:h-[146px] 
         before:bottom-[-31px] before:left-0 before:bg-no-repeat before:bg-center`}
       >
-        <div className="flex justify-between">
+        <div className="flex justify-between mb-16">
           <FooterContact />
           <div>Home</div>
         </div>

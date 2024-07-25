@@ -13,3 +13,7 @@ throughout the screen changes.
 
 How to Install and Run
 shadcdn
+
+# Suggestions
+
+- Use X logo instead of Twitter
