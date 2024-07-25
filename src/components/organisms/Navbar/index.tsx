@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div
       className={`sticky left-[50%] translate-x-[-50%] top-[52px] mx-auto 
-        z-50 w-[176px] h-[88px]`}
+        z-50 w-[140px] h-14 md:w-[176px] md:h-[88px]`}
     >
       <Button
         className={`border rounded-tl-full rounded-bl-full border-border-2 rounded-tr-none rounded-br-none

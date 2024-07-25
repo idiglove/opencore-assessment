@@ -4,7 +4,7 @@ const RoundedText = ({ children }: Props) => {
   return (
     <div
       className={`rounded-full border-white border-[2px] w-[250px] h-[250px]
-        text-center flex items-center justify-center`}
+        text-center flex items-center justify-center mx-auto xl:mx-0`}
     >
       <TypographyP className="text-white">{children}</TypographyP>
     </div>

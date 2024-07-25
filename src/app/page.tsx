@@ -12,7 +12,7 @@ export default function Home() {
         before:bg-[size:100%_100%]`}
     >
       <Navbar />
-      <main className="flex flex-col p-24">
+      <main className="flex flex-col p-4 md:p-24">
         <Hero className="mb-23" />
         <ResourcesGrid className="mb-[127px]" />
         <Banner />

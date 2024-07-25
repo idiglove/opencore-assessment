@@ -43,7 +43,7 @@ const FilterButtons = ({ onChangeFilter, filter }: Props) => {
     },
   ];
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 flex-wrap">
       {buttons.map(({ text, ButtonProps }) => (
         <FilterButton
           key={text}
