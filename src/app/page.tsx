@@ -3,6 +3,12 @@ import Footer from "@/components/organisms/Footer";
 import Hero from "@/components/organisms/Hero";
 import Navbar from "@/components/organisms/Navbar";
 import ResourcesGrid from "@/components/organisms/ResourcesGrid";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "OpenCore - Resources page",
+  description: "OpenCore's resources page",
+};
 
 export default function Home() {
   return (
@@ -14,7 +20,7 @@ export default function Home() {
       <Navbar />
       <main className="flex flex-col p-4 md:p-24 pt-0 md:pt-0">
         <Hero className="mb-6 md:mb-23" />
-        <ResourcesGrid className="mb-[127px]" />
+        <ResourcesGrid className="mb-8 md:mb-[127px]" />
         <Banner />
       </main>
       <footer>

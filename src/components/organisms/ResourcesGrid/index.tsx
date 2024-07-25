@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ImageGrid from "../ImageGrid";
 import SearchBarWithFilters from "../SearchBarWithFilters";
+import { cn } from "@/lib/utils";
 
 export const FilterKeys = {
   allResources: "allResources",
@@ -28,13 +29,20 @@ const ResourcesGrid = ({ className }: Props) => {
   };
 
   return (
-    <div className={className}>
-      <SearchBarWithFilters
-        filter={filter}
-        onChangeFilter={onChangeFilter}
-        className="mb-16"
-      />
-      <ImageGrid />
+    <div
+      className={cn(
+        "bg-gradient-to-b from-white to-gray mx-[-16px] md:bg-transparent md:from-transparent md:to-transparent",
+        className
+      )}
+    >
+      <div className="mx-4 md:mx-0">
+        <SearchBarWithFilters
+          filter={filter}
+          onChangeFilter={onChangeFilter}
+          className="mb-9 md:mb-16"
+        />
+        <ImageGrid />
+      </div>
     </div>
   );
 };

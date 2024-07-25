@@ -73,13 +73,13 @@ const FilterButtons = ({ onChangeFilter, filter }: Props) => {
         <DropdownMenuTrigger asChild>
           <Button
             variant="outline"
-            className="border-border focus-visible:ring-transparent p-[18px] py-[10px] text-secondary"
+            className="border-border focus-visible:ring-transparent p-4 py-[10px] text-secondary"
           >
             <FilterIcon className="mr-[10px]" />
             Filters
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56">
+        <DropdownMenuContent className="w-56 mr-4">
           <DropdownMenuLabel>Filters</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuGroup>

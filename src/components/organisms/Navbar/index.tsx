@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/atoms/Button";
 import MenuIcon from "@/assets/MenuIcon";
+import OpenCoreIcon from "@/assets/OpenCoreIcon";
 
 const Navbar = () => {
   return (
@@ -12,12 +13,7 @@ const Navbar = () => {
         className={`border rounded-tl-full rounded-bl-full border-border-2 rounded-tr-none rounded-br-none
             w-[50%] px-[22px] py-[25px] h-full absolute top-0 left-0 hover:bg-opacity-100 bg-white `}
       >
-        <Image
-          src="/assets/resources/OcSmallLogo.png"
-          alt="Logo"
-          width={38}
-          height={38}
-        />
+        <OpenCoreIcon />
       </Button>
       <Button
         className={`border rounded-tr-full rounded-br-full border-border-2 rounded-tl-none rounded-bl-none

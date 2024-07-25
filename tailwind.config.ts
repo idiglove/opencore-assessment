@@ -32,6 +32,7 @@ const config = {
         bannerTo: "#22405C",
         textColor: "#344054",
         textColor2: "#547290",
+        gray: "#F4F4F4",
         primary: {
           DEFAULT: "#294f74",
           foreground: "#EDF2F5",
@@ -48,7 +49,7 @@ const config = {
           DEFAULT: "var(--muted)",
           foreground: "var(--muted-foreground)",
         },
-        badge: { DEFAULT: "#F9FAFB", secondary: "#F2F4F7" },
+        badge: { DEFAULT: "#F9FAFB", secondary: "#F2F4F7", white: "#FCFCFD" },
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",

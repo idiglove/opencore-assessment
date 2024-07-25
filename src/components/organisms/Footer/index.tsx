@@ -22,14 +22,14 @@ const Footer = () => {
           <TypographyP
             variant="p2"
             className={`text-light font-normal leading-[30px] tracking-[-0.01em]
-            text-xl`}
+            text-xl text-[14px] md:text-[20px]`}
           >
             Toronto, ON Canada
           </TypographyP>
           <TypographyP
             variant="p2"
             className={`text-light font-normal leading-[30px] tracking-[-0.01em]
-            text-xl`}
+            text-xl text-[14px] md:text-[20px]`}
           >
             OpenCore. All Rights Reserved
           </TypographyP>

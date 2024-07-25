@@ -1,7 +1,7 @@
 import CodeIcon from "@/assets/CodeIcon";
 import FileIcon from "@/assets/FileIcon";
 import PdfIcon from "@/assets/PdfIcon";
-import { Badge } from "@/components/atoms/Badge";
+import GridBadge from "@/components/molecules/GridBadge";
 import ImageCard from "@/components/molecules/ImageCard";
 
 const ImageGrid = ({ className }: Props) => {
@@ -15,9 +15,9 @@ const ImageGrid = ({ className }: Props) => {
       headingText:
         "Case Study Template: FlipX, an Investment Attraction Startup",
       badges: (
-        <Badge>
+        <GridBadge>
           <FileIcon className="mr-1 w-4 h-4" /> Design file
-        </Badge>
+        </GridBadge>
       ),
       className: "w-full md:w-[33.3%]",
     },
@@ -28,9 +28,9 @@ const ImageGrid = ({ className }: Props) => {
       },
       headingText: "Designing Impression: The Power of First Impressions",
       badges: (
-        <Badge>
+        <GridBadge>
           <CodeIcon className="mr-1 w-4 h-4" /> Github Resource
-        </Badge>
+        </GridBadge>
       ),
       className: "w-full md:w-[33.3%]",
     },
@@ -42,9 +42,9 @@ const ImageGrid = ({ className }: Props) => {
       headingText: "Fluid Card Animation in After Effects",
       badges: (
         <div className="flex gap-2">
-          <Badge>Design</Badge>
-          <Badge>UI UX</Badge>
-          <Badge>Branding</Badge>
+          <GridBadge variant="pill">Design</GridBadge>
+          <GridBadge variant="pill">UI UX</GridBadge>
+          <GridBadge variant="pill">Branding</GridBadge>
         </div>
       ),
       className: "w-full md:w-[33.3%]",
@@ -57,9 +57,9 @@ const ImageGrid = ({ className }: Props) => {
       headingText: "Designing Impression: The Power of First Impressions",
       badges: (
         <div className="flex gap-2">
-          <Badge>Design</Badge>
-          <Badge>UI UX</Badge>
-          <Badge>Branding</Badge>
+          <GridBadge variant="pill">Design</GridBadge>
+          <GridBadge variant="pill">UI UX</GridBadge>
+          <GridBadge variant="pill">Branding</GridBadge>
         </div>
       ),
       className: "hidden md:block",
@@ -70,7 +70,7 @@ const ImageGrid = ({ className }: Props) => {
         alt: "Designing Impression: The Power of First Impressions",
       },
       headingText: "Designing Impression: The Power of First Impressions",
-      badges: <Badge>Design</Badge>,
+      badges: <GridBadge variant="pill">Design</GridBadge>,
       className: "hidden md:block",
     },
     {
@@ -80,9 +80,9 @@ const ImageGrid = ({ className }: Props) => {
       },
       headingText: "OpenCore Customer Acquisition Strategy",
       badges: (
-        <Badge>
+        <GridBadge>
           <PdfIcon className="mr-1 w-4 h-4" /> Marketing PDF
-        </Badge>
+        </GridBadge>
       ),
       className: "hidden md:block",
     },

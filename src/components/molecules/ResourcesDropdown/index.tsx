@@ -17,13 +17,13 @@ const ResourcesDropdown = () => {
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
-          className="border-border focus-visible:ring-transparent p-[18px] py-[10px] text-secondary"
+          className="border-border focus-visible:ring-transparent p-[16px] py-[10px] text-secondary bg-primary-foreground"
         >
           All Resources
-          <ChevronDown />
+          <ChevronDown className="ml-2" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56">
+      <DropdownMenuContent className="w-56 ml-4">
         <DropdownMenuLabel>Filters</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
