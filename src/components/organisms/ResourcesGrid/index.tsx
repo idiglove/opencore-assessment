@@ -1,3 +1,7 @@
+import CodeIcon from "@/assets/CodeIcon";
+import FileIcon from "@/assets/FileIcon";
+import PdfIcon from "@/assets/PdfIcon";
+import { Badge } from "@/components/atoms/Badge";
 import ImageCard from "@/components/molecules/ImageCard";
 
 const ResourcesGrid = () => {
@@ -10,7 +14,11 @@ const ResourcesGrid = () => {
       },
       headingText:
         "Case Study Template: FlipX, an Investment Attraction Startup",
-      badges: <div>badges</div>,
+      badges: (
+        <Badge>
+          <FileIcon className="mr-1 w-4 h-4" /> Design file
+        </Badge>
+      ),
       className: "w-full md:w-[33.3%]",
     },
     {
@@ -19,7 +27,11 @@ const ResourcesGrid = () => {
         alt: "Designing Impression: The Power of First Impressions",
       },
       headingText: "Designing Impression: The Power of First Impressions",
-      badges: <div>badges</div>,
+      badges: (
+        <Badge>
+          <CodeIcon className="mr-1 w-4 h-4" /> Github Resource
+        </Badge>
+      ),
       className: "w-full md:w-[33.3%]",
     },
     {
@@ -28,7 +40,13 @@ const ResourcesGrid = () => {
         alt: "Fluid Card Animation in After Effects",
       },
       headingText: "Fluid Card Animation in After Effects",
-      badges: <div>badges</div>,
+      badges: (
+        <div className="flex gap-2">
+          <Badge>Design</Badge>
+          <Badge>UI UX</Badge>
+          <Badge>Branding</Badge>
+        </div>
+      ),
       className: "w-full md:w-[33.3%]",
     },
     {
@@ -37,7 +55,13 @@ const ResourcesGrid = () => {
         alt: "Designing Impression: The Power of First Impressions",
       },
       headingText: "Designing Impression: The Power of First Impressions",
-      badges: <div>badges</div>,
+      badges: (
+        <div className="flex gap-2">
+          <Badge>Design</Badge>
+          <Badge>UI UX</Badge>
+          <Badge>Branding</Badge>
+        </div>
+      ),
       className: "hidden md:block",
     },
     {
@@ -46,7 +70,7 @@ const ResourcesGrid = () => {
         alt: "Designing Impression: The Power of First Impressions",
       },
       headingText: "Designing Impression: The Power of First Impressions",
-      badges: <div>badges</div>,
+      badges: <Badge>Design</Badge>,
       className: "hidden md:block",
     },
     {
@@ -55,7 +79,11 @@ const ResourcesGrid = () => {
         alt: "OpenCore Customer Acquisition Strategy",
       },
       headingText: "OpenCore Customer Acquisition Strategy",
-      badges: <div>badges</div>,
+      badges: (
+        <Badge>
+          <PdfIcon className="mr-1 w-4 h-4" /> Marketing PDF
+        </Badge>
+      ),
       className: "hidden md:block",
     },
   ];
