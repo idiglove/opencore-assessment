@@ -1,6 +1,7 @@
 import Banner from "@/components/organisms/Banner";
 import Footer from "@/components/organisms/Footer";
 import Hero from "@/components/organisms/Hero";
+import ImageGrid from "@/components/organisms/ImageGrid";
 import ResourcesGrid from "@/components/organisms/ResourcesGrid";
 import SearchBarWithFilters from "@/components/organisms/SearchBarWithFilters";
 
@@ -9,8 +10,7 @@ export default function Home() {
     <>
       <main className="flex flex-col p-24">
         <Hero className="mb-23" />
-        <SearchBarWithFilters className="mb-16" />
-        <ResourcesGrid className="mb-32" />
+        <ResourcesGrid className="mb-[127px]" />
         <Banner />
       </main>
       <footer>

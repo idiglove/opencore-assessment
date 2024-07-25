@@ -15,7 +15,7 @@ const ImageCard = ({ ImageProps, headingText, badges, className }: Props) => {
           src={ImageProps.src}
         />
       </div>
-      <TypographyP1>{headingText}</TypographyP1>
+      <TypographyP1 className="mb-4">{headingText}</TypographyP1>
       {badges}
     </div>
   );
