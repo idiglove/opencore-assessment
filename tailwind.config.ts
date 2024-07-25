@@ -19,26 +19,26 @@ const config = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
+        border: "#EAECF0",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "var(--primary)",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "#294f74",
+          foreground: "#EDF2F5",
         },
         secondary: {
-          DEFAULT: "var(--secondary)",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "#667085",
+          foreground: "var(--secondary-foreground)",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "var(--muted)",
+          foreground: "var(--muted-foreground)",
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
@@ -53,10 +53,16 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      padding: {
+        sm: "10px",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadowColor: {
+        input: "var(--input-shadow)",
       },
       keyframes: {
         "accordion-down": {
@@ -73,6 +79,9 @@ const config = {
       },
       lineHeight: {
         xl: "76px",
+      },
+      margin: {
+        23: "5.75rem",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

@@ -1,13 +1,17 @@
 import HeroContent from "@/components/molecules/HeroContent";
 
-const Hero = () => {
+const Hero = ({ className }: Props) => {
   return (
-    <>
+    <div className={className}>
       {/* add grid absolute top */}
       {/* add topnavbar */}
-      <HeroContent />      
-    </>
+      <HeroContent />
+    </div>
   );
+};
+
+type Props = {
+  className?: string;
 };
 
 export default Hero;
