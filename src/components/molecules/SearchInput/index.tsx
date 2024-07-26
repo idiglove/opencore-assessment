@@ -9,7 +9,7 @@ const SearchInput = ({ className }: Props) => {
       <Input
         type="text"
         placeholder="Search for resources and tutorials"
-        className="py-5 pl-12 h-11 md:h-16"
+        className="py-5 pl-12 h-11 md:h-16 placeholder:text-[14px] md:placeholder:text-base"
       />
     </div>
   );

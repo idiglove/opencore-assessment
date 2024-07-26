@@ -31,7 +31,7 @@ const ResourcesGrid = ({ className }: Props) => {
   return (
     <div
       className={cn(
-        "bg-gradient-to-b from-white to-gray mx-[-16px] md:bg-transparent md:from-transparent md:to-transparent",
+        "bg-gradient-to-b from-white to-gray mx-[-16px] md:mx-0 md:bg-transparent md:from-transparent md:to-transparent",
         className
       )}
     >

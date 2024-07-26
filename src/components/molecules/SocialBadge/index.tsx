@@ -1,8 +1,8 @@
 import { Badge } from "@/components/atoms/Badge";
 
-const SocialBadge = ({ icon }: Props) => {
+const SocialBadge = ({ icon, className }: Props) => {
   return (
-    <a href="#">
+    <a href="#" className={className}>
       <Badge
         variant="secondary"
         className="flex items-center justify-center p-2 w-10 h-10"
@@ -15,6 +15,7 @@ const SocialBadge = ({ icon }: Props) => {
 
 type Props = {
   icon: React.ReactNode;
+  className?: string;
 };
 
 export default SocialBadge;

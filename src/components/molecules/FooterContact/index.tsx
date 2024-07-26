@@ -6,6 +6,7 @@ import SocialBadge from "../SocialBadge";
 import XIcon from "@/assets/XIcon";
 import LinkedInIcon from "@/assets/LinkedInIcon";
 import LinkIcon from "@/assets/LinkIcon";
+import TwitterIcon from "@/assets/TwitterIcon";
 
 const FooterContact = () => {
   return (
@@ -42,7 +43,8 @@ const FooterContact = () => {
       <div className="flex justify-between md:justify-start md:gap-8">
         <SocialBadge icon={<InstaIcon />} />
         <SocialBadge icon={<FbIcon />} />
-        <SocialBadge icon={<XIcon />} />
+        <SocialBadge icon={<XIcon />} className="block md:hidden" />
+        <SocialBadge icon={<TwitterIcon />} className="hidden md:block" />
         <SocialBadge icon={<LinkedInIcon />} />
       </div>
     </div>

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div
-      className={`before:content-[''] before:bg-grid-btm-mob md:before:bg-grid-top before:absolute before:w-screen 
+      className={`before:content-[''] before:bg-grid-btm-mob md:before:bg-grid-top before:absolute before:w-full 
         before:h-[155px] md:before:h-[100px] before:top-0 before:left-0 before:rounded-[24px] before:bg-no-repeat
         before:bg-[size:100%_100%]`}
     >
