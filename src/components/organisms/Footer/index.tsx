@@ -12,13 +12,13 @@ const Footer = () => {
         before:bg-oc-footer-mob md:before:bg-oc-footer`}
       >
         <div
-          className={`flex flex-col md:flex-row justify-between mb-16
+          className={`flex flex-col md:flex-row justify-between mb-6 md:mb-16
             `}
         >
           <FooterContact />
           <FooterLinks />
         </div>
-        <div className="flex flex-col md:flex-row justify-between text-center md:text-left ">
+        <div className={`flex flex-col md:flex-row justify-between text-center md:text-left`}>
           <TypographyP
             variant="p2"
             className={`text-light font-normal leading-[30px] tracking-[-0.01em]

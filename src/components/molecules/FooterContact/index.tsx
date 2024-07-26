@@ -9,7 +9,7 @@ import LinkIcon from "@/assets/LinkIcon";
 
 const FooterContact = () => {
   return (
-    <div className="border-b-[1px] border-b-badge-secondary pb-8 md:pb-0 mb-8 md:mb-0 ">
+    <div className="border-b-[1px] md:border-none border-b-badge-secondary pb-8 md:pb-0 mb-8 md:mb-0 ">
       <div className="mb-6 flex md:block flex-col justify-center md:justify-start">
         <TypographyP
           className={`text-light xl:text-dark font-semibold 

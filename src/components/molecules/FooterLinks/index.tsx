@@ -27,7 +27,7 @@ const FooterLinks = () => {
     },
   ];
   return (
-    <div className="w-[248px] flex justify-between">
+    <div className="w-[248px] flex justify-between border-b-[1px] md:border-none border-b-badge-secondary pb-6 md:pb-0">
       <div className="flex flex-col gap-[13px]">
         {leftLinks.map((link, index) => {
           return (

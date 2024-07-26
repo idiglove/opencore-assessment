@@ -11,9 +11,9 @@ const Banner = ({ className }: Props) => {
         `relative flex flex-wrap justify-between w-full rounded-[24px] bg-gradient-to-b from-bannerFrom to-bannerTo
         px-8 py-16 md:py-31 md:px-22         
         before:content-[''] before:bg-grid-top before:absolute before:w-full 
-        before:h-[100px] before:top-0 before:left-0 before:rounded-[24px]        
+        before:h-[100px] before:top-0 before:left-0 before:rounded-[24px] before:bg-center        
         after:content-[''] after:bg-grid-btm after:absolute after:w-full 
-        after:h-[100px] after:bottom-0 after:left-0 after:rounded-[24px]`,
+        after:h-[100px] after:bottom-0 after:left-0 after:rounded-[24px] after:bg-center`,
         className
       )}
     >
