@@ -40,12 +40,17 @@ const FooterContact = () => {
           <LinkIcon />
         </Badge>
       </div>
-      <div className="flex justify-between md:justify-start md:gap-8">
+      <div className="hidden md:flex justify-between md:justify-start md:gap-8">
         <SocialBadge icon={<InstaIcon />} />
         <SocialBadge icon={<FbIcon />} />
-        <SocialBadge icon={<XIcon />} className="block md:hidden" />
-        <SocialBadge icon={<TwitterIcon />} className="hidden md:block" />
+        <SocialBadge icon={<TwitterIcon />} />
         <SocialBadge icon={<LinkedInIcon />} />
+      </div>
+      <div className="flex md:hidden justify-between md:justify-start md:gap-8">
+        <SocialBadge icon={<InstaIcon />} />
+        <SocialBadge icon={<LinkedInIcon />} />
+        <SocialBadge icon={<XIcon />} />
+        <SocialBadge icon={<FbIcon />} />
       </div>
     </div>
   );
